@@ -1,0 +1,306 @@
+/* .open-sans-<uniquifier> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+} */
+
+body{
+  font-family: "Open Sans", sans-serif;
+   font-style: normal;
+}
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+:root{
+  --bg-primary:#FFF8F3;
+}
+.All-container__title{
+  color: #181818;
+  font-size: 35px;
+  font-weight: 700;
+  text-align: center;
+}
+.All-description{
+  color: #757575;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 30px 20px 30px 80px ;
+  text-align: center;
+  width: 80%;
+}
+
+
+/* nav section start hare */
+header{
+    
+    background-image: url(images/developer.png),url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: left top,right bottom;
+    background-color: var(--bg-primary);
+    height: 100vh;
+    background-attachment: fixed;
+
+
+}
+
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 150px;
+  padding-top: 50px;
+}
+nav ul{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+nav li a{
+  color:#474747;
+  font-size: 20px;
+}
+nav li a:hover{
+  text-decoration: overline;
+}
+
+.btn-primary{
+  background-color:#FD6E0A;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  border-radius: 5px;
+  padding: 18px 35px;
+  border: none;
+}
+.btn-primary:hover{
+  cursor: pointer;
+  text-decoration: overline;
+}
+
+.nav-title{
+  font-weight: 800;
+  font-size: 45px;
+}
+.text-primary{
+  color: #FD6E0A;
+
+}
+
+/* nav section ends hare */
+/* banner section start hare */
+#banner{
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 150px;
+
+}
+.banner-container{
+  width:600px;
+  margin-top: 100px;
+
+
+}
+.banner-container h3{
+  font-weight: 500;
+  font-size: 40px;
+  color: #474747;
+  margin-bottom: 20px;
+}
+.banner-container h2{
+  font-weight: 700;
+  font-size: 80px;
+  letter-spacing: 3px;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.banner-container p{
+  font-weight: 400;
+  font-size: 18px;
+  color: #757575;
+  margin-bottom: 40px;
+}
+.banner-image{
+  width: 480px;
+}
+.banner-image img{
+  width: 100%;
+}
+
+
+/* banner section ends hare */
+/* about me section start hare */
+#about-me{
+  background-color: var(--bg-primary);
+  width: 1140px;
+  margin: 0 auto;
+  padding: 120px 170px;
+
+}
+.contact-me__items{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+.contact-me__title{
+  color: #757575;
+  font-size: 20px;
+  font-weight: 400;
+}
+.contact-me__description{
+  color: #474747;
+  font-weight: 700;
+  font-size: 20px;
+}
+/* about me section ends hare */
+/* what-do section start hare */
+#what-do{
+  width: 1140px;
+  margin: 0 auto;
+  padding: 120px 170px;
+}
+.card-container{
+  display: flex;
+  gap: 20px;
+}
+.card{
+  width: 267px;
+  height: 377px;
+   box-shadow: 10px 10px 8px 10px #888888;
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+    margin-top: 20px;
+
+
+}
+.card img{
+margin: 20px auto;
+width: 50px;
+}
+.card-description{
+  font-weight: 400;
+  font-size: 18px;
+  color: #757575;
+  margin-top: 20px;
+}
+
+
+
+/* what-do section ends hare */
+/* resume summary section start hare */
+#resume-summary-section{
+ width: 1140px;
+  margin: 0 auto;
+  
+}
+.summary-resume{
+  display: flex;
+  gap: 50px;
+ margin: 30px 20px;
+}
+.education-master{
+  border-bottom: 1px solid black;
+  padding: 20px 0px;
+ 
+}
+.jonour-developer{
+  border-bottom: 1px solid black;
+  padding: 20px 20px;
+  
+
+}
+.jonour-developer1{
+  padding: 20px 20px ;
+}
+.btn-container{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* resume summary section ends hare */
+/* footer section start hare */
+footer{
+    background-color: var(--bg-primary);
+
+
+}
+#footer{
+  width: 1000px;
+ display: flex;
+  justify-content: center;
+padding: 100px;
+margin: 0 auto;
+gap: 50px;
+}
+.contact-section{
+  width: 50%;
+}
+.footer-desc{
+  font-size: 16px;
+  font-weight: 400;
+  color: #474747;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 30px;
+}
+.social-icon{
+  font-size: 30px;
+  text-align: center;
+  margin-top: 30px;
+}
+.massage-me-section{
+  width: 50%;
+}
+.form-container{
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#footer input[type="text"]{
+height: 50px;
+border-radius: 5px;
+background-color: white;
+width: 100%;
+padding: 10px 20px;
+border: none;
+font-size: 20px;
+}
+#footer input[type="email"]{
+height: 50px;
+border-radius: 5px;
+background-color: white;
+width: 100%;
+padding: 10px 20px;
+border: none;
+font-size: 20px;
+margin-top: 20px;
+}
+#footer textarea{
+height: 100px;
+border-radius: 5px;
+background-color: white;
+width: 100%;
+padding: 10px 20px;
+border: none;
+font-size: 20px;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+
+
+
+
+
+/* footer section ends hare */
