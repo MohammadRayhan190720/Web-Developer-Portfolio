@@ -1,0 +1,228 @@
+@media screen and (max-width: 576px) {
+  nav,
+  nav ul,
+  #banner {
+    flex-direction: column;
+  }
+  header {
+    background-image: none;
+  }
+  nav {
+    margin: 20px;
+  }
+  #banner {
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .banner-container h3 {
+    font-size: 20px;
+  }
+  .banner-container h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+  .banner-container p {
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 20px;
+    /* width:60%; */
+  }
+  /* .btn-primary{
+    width: 100%;
+    height: auto;
+   } */
+  .btn-primary {
+    display: block;
+    margin-top: 20px;
+  }
+  .banner-image {
+    width: 200px;
+    height: auto;
+  }
+  .banner-image img {
+    width: 100%;
+  }
+  /* about me */
+  #about-me {
+    padding: 20px;
+    height: auto;
+  }
+
+  .contact-me__items {
+    /* flex-direction: column;   */
+    /* justify-content: center; */
+    /* text-align: left; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .All-container__title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .All-description {
+    margin: 30px;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  /* what i do section */
+  #what-do {
+    padding: 20px;
+    height: auto;
+  }
+  .card-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .All-description {
+    width: 100%;
+  }
+  /* resume summary section */
+  .summary-resume {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* footer section */
+  #footer {
+    flex-direction: column;
+  }
+  .contact-section {
+    width: 100%;
+  }
+  .massage-me-section {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  nav,
+  nav ul,
+  #banner {
+    flex-direction: column;
+  }
+  header {
+    background-image: none;
+  }
+  nav {
+    margin: 20px;
+  }
+  #banner {
+    margin: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  .banner-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .banner-container h3 {
+    font-size: 20px;
+  }
+  .banner-container h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+  }
+  .banner-container p {
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 20px;
+    /* width:60%; */
+  }
+  /* .btn-primary{
+    width: 100%;
+    height: auto;
+   } */
+  .btn-primary {
+    display: block;
+    margin-top: 20px;
+  }
+  .banner-image {
+    width: 200px;
+    height: auto;
+  }
+  .banner-image img {
+    width: 100%;
+  }
+  /* about me */
+  #about-me {
+    padding: 20px;
+    height: auto;
+  }
+
+  .contact-me__items {
+    /* flex-direction: column;   */
+    /* justify-content: center; */
+    /* text-align: left; */
+    /* align-items: center; */
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .All-container__title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .All-description {
+    margin: 30px;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  /* what i do section */
+  #what-do {
+    padding: 20px;
+    height: auto;
+  }
+  .card-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .All-description {
+    width: 100%;
+  }
+  /* resume summary section */
+  .summary-resume {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  /* footer section */
+  #footer {
+    flex-direction: column;
+  }
+  .contact-section {
+    width: 100%;
+  }
+  .massage-me-section {
+    width: 100%;
+  }
+}
